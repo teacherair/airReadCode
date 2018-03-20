@@ -4,7 +4,6 @@
 
     <!--Content-->
     <LinearLayout
-        android:padding=""
         android:layout_margin="50dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -20,14 +19,32 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            <!--icon-->
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-
-
+            <!--texfild-->
+            <EditText
+                android:hint="user"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
         <!--Password-->
+             <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
         <!--Login-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="" />
         <!--Register-->
 
     </LinearLayout>
